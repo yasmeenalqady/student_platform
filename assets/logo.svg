@@ -1,0 +1,7 @@
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="60" height="60" rx="18" fill="#20247C"/>
+  <path d="M20 17L27 8L34 17V35H44V20C44 13.3726 38.6274 8 32 8H27C20.3726 8 15 13.3726 15 20V35H20V17Z" fill="#F7F8FC"/>
+  <path d="M23 38L27 31L31 38H23Z" fill="#ECA51A"/>
+  <path d="M43 26L45.5 31L51 32L46.5 36L47.8 42L43 39L38.2 42L39.5 36L35 32L40.5 31L43 26Z" fill="#ECA51A"/>
+  <text x="74" y="38" fill="#20247C" font-size="28" font-family="Tahoma, Arial, sans-serif" font-weight="700">إنجاز</text>
+</svg>

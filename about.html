@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   من نحن | آفاق
+  </title>
+  <meta content="تعرف على منصة آفاق" name="description"/>
+  <meta content="من نحن | آفاق" property="og:title"/>
+  <meta content="تعرف على منصة آفاق" property="og:description"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config={theme:{extend:{colors:{primary:'#20247C',darkblue:'#171B68',gold:'#ECA51A',muted:'#5F6475',light:'#F7F8FC'}}}}
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="navbar sticky top-0 z-50 bg-white/95">
+   <nav class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
+    <a class="flex items-center gap-2 font-black text-xl text-primary" href="index.html">
+     <img alt="شعار إنجاز" class="h-11 w-auto object-contain" src="image/logo.png"/>
+    </a>
+    <div class="hidden md:flex items-center gap-7 text-sm font-bold">
+     <a class="hover:text-gold" href="index.html">
+      الرئيسية
+     </a>
+     <a class="hover:text-gold" href="services.html">
+      الخدمات
+     </a>
+     <a class="hover:text-gold" href="portfolio.html">
+      أعمالنا
+     </a>
+     <a class="hover:text-gold text-primary" href="about.html">
+      من نحن
+     </a>
+     <a class="hover:text-gold" href="contact.html">
+      تواصل معنا
+     </a>
+    </div>
+    <div class="flex items-center gap-3">
+     <a class="hidden sm:inline-flex bg-gold hover:bg-gold-light text-darkblue px-5 py-2.5 rounded-xl font-bold transition" href="contact.html">
+      اطلب خدمتك
+     </a>
+     <button class="md:hidden text-xl" id="menuBtn">
+      <i class="fa-solid fa-bars">
+      </i>
+     </button>
+    </div>
+   </nav>
+   <div class="mobile-menu md:hidden bg-white border-t" id="mobileMenu">
+    <div class="px-5 py-4 flex flex-col gap-4">
+     <a class="font-bold" href="index.html">
+      الرئيسية
+     </a>
+     <a class="font-bold" href="services.html">
+      الخدمات
+     </a>
+     <a class="font-bold" href="portfolio.html">
+      أعمالنا
+     </a>
+     <a class="font-bold" href="about.html">
+      من نحن
+     </a>
+     <a class="font-bold" href="contact.html">
+      تواصل معنا
+     </a>
+     <a class="bg-gold text-center py-3 rounded-xl font-bold" href="contact.html">
+      اطلب خدمتك
+     </a>
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="hero-banner py-24">
+    <div class="max-w-4xl mx-auto px-5 text-center">
+     <span class="inline-flex bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-bold">
+      عن المنصة
+     </span>
+     <h1 class="text-4xl md:text-5xl font-black mt-5">
+      نحوّل الأفكار إلى أعمال تستحق أن تُرى
+     </h1>
+     <p class="text-muted text-lg leading-9 mt-6 max-w-3xl mx-auto">
+      إنجاز منصة عصرية تجمع الخدمات الأكاديمية والتقنية والإبداعية في تجربة واحدة سهلة وواضحة، وتركز على فهم احتياجات العميل وتحويلها إلى مخرجات منظمة واحترافية.
+     </p>
+    </div>
+   </section>
+   <section class="max-w-6xl mx-auto px-5 py-20 grid md:grid-cols-2 gap-8">
+    <article class="rounded-3xl bg-primary text-white p-8">
+     <i class="fa-solid fa-eye text-gold text-3xl">
+     </i>
+     <h2 class="text-2xl font-black mt-5">
+      رؤيتنا
+     </h2>
+     <p class="leading-8 text-white/80 mt-3">
+      أن نكون وجهة موثوقة للطلاب والعملاء للحصول على خدمات رقمية وأكاديمية وإبداعية باحتراف.
+     </p>
+    </article>
+    <article class="rounded-3xl bg-light p-8">
+     <i class="fa-solid fa-paper-plane text-gold text-3xl">
+     </i>
+     <h2 class="text-2xl font-black mt-5">
+      رسالتنا
+     </h2>
+     <p class="leading-8 text-muted mt-3">
+      تقديم خدمات عالية الجودة تجمع بين الإبداع والسرعة وسهولة التواصل.
+     </p>
+    </article>
+   </section>
+   <section class="max-w-7xl mx-auto px-5 py-10">
+    <h2 class="text-3xl font-black text-center">
+     قيمنا
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-10">
+     <div class="text-center border rounded-2xl p-6">
+      <i class="fa-solid fa-award text-gold text-2xl">
+      </i>
+      <h3 class="font-bold mt-3">
+       الجودة
+      </h3>
+     </div>
+     <div class="text-center border rounded-2xl p-6">
+      <i class="fa-solid fa-lightbulb text-gold text-2xl">
+      </i>
+      <h3 class="font-bold mt-3">
+       الإبداع
+      </h3>
+     </div>
+     <div class="text-center border rounded-2xl p-6">
+      <i class="fa-solid fa-check-double text-gold text-2xl">
+      </i>
+      <h3 class="font-bold mt-3">
+       الالتزام
+      </h3>
+     </div>
+     <div class="text-center border rounded-2xl p-6">
+      <i class="fa-solid fa-eye text-gold text-2xl">
+      </i>
+      <h3 class="font-bold mt-3">
+       الشفافية
+      </h3>
+     </div>
+     <div class="text-center border rounded-2xl p-6">
+      <i class="fa-solid fa-shield-halved text-gold text-2xl">
+      </i>
+      <h3 class="font-bold mt-3">
+       الخصوصية
+      </h3>
+     </div>
+    </div>
+   </section>
+   <section class="bg-light py-24">
+    <div class="max-w-7xl mx-auto px-5">
+     <h2 class="text-3xl font-black text-center">
+      ماذا يقول عنا عملاؤنا؟
+     </h2>
+    <div class="overflow-hidden mt-10" dir="ltr">
+     <div class="flex gap-5 animate-[scroll_25s_linear_infinite] min-w-max" dir="ltr">
+       <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+        <div class="flex items-center gap-3 mb-5">
+         <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">
+          أ
+         </div>
+         <div>
+          <b class="block text-primary">
+           أحمد محمد
+          </b>
+          <small class="text-muted">
+           تصميم موقع
+          </small>
+         </div>
+        </div>
+        <div class="text-gold text-lg mb-3">
+         ★★★★★
+        </div>
+        <p class="text-muted leading-8">
+         "تجربة ممتازة، تعامل احترافي وتسليم منظم."
+        </p>
+       </article>
+       <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+        <div class="flex items-center gap-3 mb-5">
+         <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">
+          س
+         </div>
+         <div>
+          <b class="block text-primary">
+           سارة علي
+          </b>
+          <small class="text-muted">
+           مشروع تخرج
+          </small>
+         </div>
+        </div>
+        <div class="text-gold text-lg mb-3">
+         ★★★★★
+        </div>
+        <p class="text-muted leading-8">
+         "فريق متعاون وفهم سريع للتفاصيل المطلوبة."
+        </p>
+       </article>
+       <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+        <div class="flex items-center gap-3 mb-5">
+         <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">
+          خ
+         </div>
+         <div>
+          <b class="block text-primary">
+           خالد حسن
+          </b>
+          <small class="text-muted">
+           تصميم جرافيك
+          </small>
+         </div>
+        </div>
+        <div class="text-gold text-lg mb-3">
+         ★★★★★
+        </div>
+        <p class="text-muted leading-8">
+         "جودة رائعة واهتمام واضح بأدق التفاصيل."
+        </p>
+       </article>
+       <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+        <div class="flex items-center gap-3 mb-5">
+         <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">
+          م
+         </div>
+         <div>
+          <b class="block text-primary">
+           محمد علي
+          </b>
+          <small class="text-muted">
+           تطبيق Web
+          </small>
+         </div>
+        </div>
+        <div class="text-gold text-lg mb-3">
+         ★★★★★
+        </div>
+        <p class="text-muted leading-8">
+         "خدمة دقيقة جدًا ومتابعة ممتازة طوال المشروع."
+        </p>
+       </article>
+        <div aria-hidden="true" class="contents">
+         <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+          <div class="flex items-center gap-3 mb-5">
+           <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">أ</div>
+           <div><b class="block text-primary">أحمد محمد</b><small class="text-muted">تصميم موقع</small></div>
+          </div>
+          <div class="text-gold text-lg mb-3">★★★★★</div>
+          <p class="text-muted leading-8">"تجربة ممتازة، تعامل احترافي وتسليم منظم."</p>
+         </article>
+         <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+          <div class="flex items-center gap-3 mb-5">
+           <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">س</div>
+           <div><b class="block text-primary">سارة علي</b><small class="text-muted">مشروع تخرج</small></div>
+          </div>
+          <div class="text-gold text-lg mb-3">★★★★★</div>
+          <p class="text-muted leading-8">"فريق متعاون وفهم سريع للتفاصيل المطلوبة."</p>
+         </article>
+         <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+          <div class="flex items-center gap-3 mb-5">
+           <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">خ</div>
+           <div><b class="block text-primary">خالد حسن</b><small class="text-muted">تصميم جرافيك</small></div>
+          </div>
+          <div class="text-gold text-lg mb-3">★★★★★</div>
+          <p class="text-muted leading-8">"جودة رائعة واهتمام واضح بأدق التفاصيل."</p>
+         </article>
+         <article class="bg-white p-6 soft-card" style="width:380px;border-top-left-radius:0;border-top-right-radius:1.75rem;border-bottom-right-radius:1.75rem;border-bottom-left-radius:1.75rem">
+          <div class="flex items-center gap-3 mb-5">
+           <div class="w-12 h-12 bg-primary text-white rounded-full grid place-items-center font-bold">م</div>
+           <div><b class="block text-primary">محمد علي</b><small class="text-muted">تطبيق Web</small></div>
+          </div>
+          <div class="text-gold text-lg mb-3">★★★★★</div>
+          <p class="text-muted leading-8">"خدمة دقيقة جدًا ومتابعة ممتازة طوال المشروع."</p>
+         </article>
+        </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="max-w-7xl mx-auto px-5 py-20">
+    <h2 class="text-3xl font-black text-center">
+     مجالات خبرتنا
+    </h2>
+    <div class="grid md:grid-cols-4 gap-5 mt-10">
+     <div class="rounded-2xl bg-light p-6">
+      <i class="fa-solid fa-graduation-cap text-primary text-2xl">
+      </i>
+      <h3 class="font-black mt-4">
+       الأكاديمي
+      </h3>
+      <p class="text-muted text-sm mt-2">
+       حلول احترافية مصممة حسب الاحتياج.
+      </p>
+     </div>
+     <div class="rounded-2xl bg-light p-6">
+      <i class="fa-solid fa-code text-primary text-2xl">
+      </i>
+      <h3 class="font-black mt-4">
+       البرمجة
+      </h3>
+      <p class="text-muted text-sm mt-2">
+       حلول احترافية مصممة حسب الاحتياج.
+      </p>
+     </div>
+     <div class="rounded-2xl bg-light p-6">
+      <i class="fa-solid fa-palette text-primary text-2xl">
+      </i>
+      <h3 class="font-black mt-4">
+       التصميم
+      </h3>
+      <p class="text-muted text-sm mt-2">
+       حلول احترافية مصممة حسب الاحتياج.
+      </p>
+     </div>
+     <div class="rounded-2xl bg-light p-6">
+      <i class="fa-solid fa-video text-primary text-2xl">
+      </i>
+      <h3 class="font-black mt-4">
+       الفيديو
+      </h3>
+      <p class="text-muted text-sm mt-2">
+       حلول احترافية مصممة حسب الاحتياج.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="max-w-6xl mx-auto px-5">
+    <div class="bg-primary text-white text-center rounded-3xl p-14">
+     <h2 class="text-3xl font-black">
+      لنبدأ مشروعك معًا
+     </h2>
+     <a class="inline-block bg-white text-primary px-7 py-3 rounded-xl font-bold mt-6" href="contact.html">
+      اطلب خدمتك الآن
+     </a>
+    </div>
+   </section>
+  </main>
+  <div class="social-float-bar" aria-label="روابط التواصل الاجتماعي">
+   <a class="social-item whatsapp" href="https://wa.me/" target="_blank" rel="noopener" aria-label="واتساب">
+    <i class="fa-brands fa-whatsapp">
+    </i>
+   </a>
+   <a class="social-item telegram" href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener" aria-label="تيليجرام">
+    <i class="fa-brands fa-telegram">
+    </i>
+   </a>
+   <a class="social-item x" href="https://x.com/l05ur" target="_blank" rel="noopener" aria-label="X">
+    <i class="fa-brands fa-x-twitter">
+    </i>
+   </a>
+   <a class="social-item instagram" href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener" aria-label="تيك توك">
+    <i class="fa-brands fa-tiktok">
+    </i>
+   </a>
+  </div>
+  <footer class="site-footer bg-darkblue text-white mt-20">
+   <div class="max-w-7xl mx-auto px-5 py-14 grid md:grid-cols-4 gap-10">
+    <div>
+     <div class="mb-4">
+      <img alt="شعار آفاق" class="h-12 w-auto object-contain" src="image/logo.png"/>
+     </div>
+     <p class="text-white/65 leading-8">
+      منصة عصرية تقدم حلولًا أكاديمية وتقنية وإبداعية باحتراف وسهولة.
+     </p>
+     <div class="footer-social mt-5" aria-label="روابط التواصل في الفوتر">
+      <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="واتساب">
+       <i class="fa-brands fa-whatsapp">
+       </i>
+      </a>
+      <a href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener" aria-label="تيليجرام">
+       <i class="fa-brands fa-telegram">
+       </i>
+      </a>
+      <a href="https://x.com/l05ur" target="_blank" rel="noopener" aria-label="X">
+       <i class="fa-brands fa-x-twitter">
+       </i>
+      </a>
+      <a href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener" aria-label="تيك توك">
+       <i class="fa-brands fa-tiktok">
+       </i>
+      </a>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      روابط سريعة
+     </h3>
+     <div class="space-y-2 text-white/65">
+      <a class="block" href="index.html">
+       الرئيسية
+      </a>
+      <a class="block" href="services.html">
+       الخدمات
+      </a>
+      <a class="block" href="portfolio.html">
+       أعمالنا
+      </a>
+      <a class="block" href="about.html">
+       من نحن
+      </a>
+      <a class="block" href="contact.html">
+       تواصل معنا
+      </a>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      خدماتنا
+     </h3>
+     <div class="space-y-2 text-white/65">
+      <span class="block">
+       البحوث
+      </span>
+      <span class="block">
+       مشاريع التخرج
+      </span>
+      <span class="block">
+       البرمجة
+      </span>
+      <span class="block">
+       التصميم
+      </span>
+      <span class="block">
+       الفيديو
+      </span>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      تواصل
+     </h3>
+     <div class="space-y-3 text-white/65 text-sm">
+      <a class="block hover:text-gold transition" href="https://wa.me/" target="_blank" rel="noopener">
+       واتساب
+      </a>
+      <a class="block hover:text-gold transition" href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener">
+       تيليجرام
+      </a>
+      <a class="block hover:text-gold transition" href="https://x.com/l05ur" target="_blank" rel="noopener">
+       X
+      </a>
+      <a class="block hover:text-gold transition" href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener">
+       TikTok
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="border-t border-white/10 text-center py-6 text-sm text-white/50">
+    © 2026 جميع الحقوق محفوظة.
+   </div>
+  </footer>
+  <script src="js/main.js">
+  </script>
+ </body>
+</html>

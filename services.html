@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   خدماتنا | آفاق
+  </title>
+  <meta content="حلول أكاديمية وتقنية وإبداعية" name="description"/>
+  <meta content="خدماتنا | آفاق" property="og:title"/>
+  <meta content="حلول أكاديمية وتقنية وإبداعية" property="og:description"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config={theme:{extend:{colors:{primary:'#20247C',darkblue:'#171B68',gold:'#ECA51A',muted:'#5F6475',light:'#F7F8FC'}}}}
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="navbar sticky top-0 z-50 bg-white/95">
+   <nav class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
+    <a class="flex items-center gap-2 font-black text-xl text-primary" href="index.html">
+     <img alt="شعار إنجاز" class="h-11 w-auto object-contain" src="image/logo.png"/>
+    </a>
+    <div class="hidden md:flex items-center gap-7 text-sm font-bold">
+     <a class="hover:text-gold" href="index.html">
+      الرئيسية
+     </a>
+     <a class="hover:text-gold text-primary" href="services.html">
+      الخدمات
+     </a>
+     <a class="hover:text-gold" href="portfolio.html">
+      أعمالنا
+     </a>
+     <a class="hover:text-gold" href="about.html">
+      من نحن
+     </a>
+     <a class="hover:text-gold" href="contact.html">
+      تواصل معنا
+     </a>
+    </div>
+    <div class="flex items-center gap-3">
+     <a class="hidden sm:inline-flex bg-gold hover:bg-gold-light text-darkblue px-5 py-2.5 rounded-xl font-bold transition" href="contact.html">
+      اطلب خدمتك
+     </a>
+     <button class="md:hidden text-xl" id="menuBtn">
+      <i class="fa-solid fa-bars">
+      </i>
+     </button>
+    </div>
+   </nav>
+   <div class="mobile-menu md:hidden bg-white border-t" id="mobileMenu">
+    <div class="px-5 py-4 flex flex-col gap-4">
+     <a class="font-bold" href="index.html">
+      الرئيسية
+     </a>
+     <a class="font-bold" href="services.html">
+      الخدمات
+     </a>
+     <a class="font-bold" href="portfolio.html">
+      أعمالنا
+     </a>
+     <a class="font-bold" href="about.html">
+      من نحن
+     </a>
+     <a class="font-bold" href="contact.html">
+      تواصل معنا
+     </a>
+     <a class="bg-gold text-center py-3 rounded-xl font-bold" href="contact.html">
+      اطلب خدمتك
+     </a>
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="hero-banner py-20 text-center">
+    <div class="max-w-4xl mx-auto px-5">
+     <span class="inline-flex bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-bold">
+      خدماتنا
+     </span>
+     <h1 class="text-4xl md:text-5xl font-black mt-5">
+      حلول أكاديمية وتقنية وإبداعية
+     </h1>
+     <p class="text-muted text-lg leading-9 mt-4 max-w-2xl mx-auto">
+      حلول أكاديمية وتقنية وإبداعية مصممة لتلبية احتياجاتك وتسهيل رحلتك من الفكرة إلى التنفيذ.
+     </p>
+    </div>
+   </section>
+   <section class="max-w-7xl mx-auto px-5 py-16">
+    <div class="filter-group flex flex-wrap justify-center gap-3 mb-10">
+     <button class="filter-btn active border px-5 py-2 rounded-xl font-bold" data-filter="all" data-target="#servicesGrid">
+      الكل
+     </button>
+     <button class="filter-btn border px-5 py-2 rounded-xl font-bold" data-filter="أكاديمي" data-target="#servicesGrid">
+      أكاديمي
+     </button>
+     <button class="filter-btn border px-5 py-2 rounded-xl font-bold" data-filter="برمجة" data-target="#servicesGrid">
+      برمجة
+     </button>
+     <button class="filter-btn border px-5 py-2 rounded-xl font-bold" data-filter="تصميم" data-target="#servicesGrid">
+      تصميم
+     </button>
+     <button class="filter-btn border px-5 py-2 rounded-xl font-bold" data-filter="فيديو" data-target="#servicesGrid">
+      فيديو
+     </button>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5" id="servicesGrid">
+     <article class="service-card border rounded-2xl p-6" data-category="أكاديمي">
+      <i class="fa-solid fa-book-open text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       أكاديمي
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       البحوث الأكاديمية
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       تنسيق وكتابة وعروض وتحليل بيانات.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="أكاديمي">
+      <i class="fa-solid fa-graduation-cap text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       أكاديمي
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       مشاريع التخرج
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       مساعدة في تنظيم وتنفيذ وعرض المشروع.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="برمجة">
+      <i class="fa-solid fa-globe text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       برمجة
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       تصميم المواقع
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       مواقع عصرية ومتجاوبة.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="برمجة">
+      <i class="fa-solid fa-code text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       برمجة
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       برمجة المشاريع
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       حلول برمجية حسب المتطلبات.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="تصميم">
+      <i class="fa-solid fa-pen-nib text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       تصميم
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       الهوية البصرية
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       شعارات وهوية متكاملة.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="تصميم">
+      <i class="fa-solid fa-object-group text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       تصميم
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       UI/UX
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       واجهات وتجارب مستخدم حديثة.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="فيديو">
+      <i class="fa-solid fa-film text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       فيديو
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       مونتاج الفيديو
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       مونتاج احترافي للمحتوى.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+     <article class="service-card border rounded-2xl p-6" data-category="فيديو">
+      <i class="fa-solid fa-clapperboard text-2xl text-gold">
+      </i>
+      <span class="text-primary text-xs block mt-4">
+       فيديو
+      </span>
+      <h2 class="font-black text-xl mt-1">
+       موشن جرافيك
+      </h2>
+      <p class="text-muted text-sm leading-7 mt-3">
+       محتوى بصري جذاب.
+      </p>
+      <a class="inline-block mt-5 text-primary font-bold" href="contact.html">
+       اطلب الخدمة ←
+      </a>
+     </article>
+    </div>
+   </section>
+  </main>
+  <div class="social-float-bar" aria-label="روابط التواصل الاجتماعي">
+   <a class="social-item whatsapp" href="https://wa.me/" target="_blank" rel="noopener" aria-label="واتساب">
+    <i class="fa-brands fa-whatsapp">
+    </i>
+   </a>
+   <a class="social-item telegram" href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener" aria-label="تيليجرام">
+    <i class="fa-brands fa-telegram">
+    </i>
+   </a>
+   <a class="social-item x" href="https://x.com/l05ur" target="_blank" rel="noopener" aria-label="X">
+    <i class="fa-brands fa-x-twitter">
+    </i>
+   </a>
+   <a class="social-item instagram" href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener" aria-label="تيك توك">
+    <i class="fa-brands fa-tiktok">
+    </i>
+   </a>
+  </div>
+  <footer class="site-footer bg-darkblue text-white mt-20">
+   <div class="max-w-7xl mx-auto px-5 py-14 grid md:grid-cols-4 gap-10">
+    <div>
+     <div class="mb-4">
+      <img alt="شعار آفاق" class="h-12 w-auto object-contain" src="image/logo.png"/>
+     </div>
+     <p class="text-white/65 leading-8">
+      منصة عصرية تقدم حلولًا أكاديمية وتقنية وإبداعية باحتراف وسهولة.
+     </p>
+     <div class="footer-social mt-5" aria-label="روابط التواصل في الفوتر">
+      <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="واتساب">
+       <i class="fa-brands fa-whatsapp">
+       </i>
+      </a>
+      <a href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener" aria-label="تيليجرام">
+       <i class="fa-brands fa-telegram">
+       </i>
+      </a>
+      <a href="https://x.com/l05ur" target="_blank" rel="noopener" aria-label="X">
+       <i class="fa-brands fa-x-twitter">
+       </i>
+      </a>
+      <a href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener" aria-label="تيك توك">
+       <i class="fa-brands fa-tiktok">
+       </i>
+      </a>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      روابط سريعة
+     </h3>
+     <div class="space-y-2 text-white/65">
+      <a class="block" href="index.html">
+       الرئيسية
+      </a>
+      <a class="block" href="services.html">
+       الخدمات
+      </a>
+      <a class="block" href="portfolio.html">
+       أعمالنا
+      </a>
+      <a class="block" href="about.html">
+       من نحن
+      </a>
+      <a class="block" href="contact.html">
+       تواصل معنا
+      </a>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      خدماتنا
+     </h3>
+     <div class="space-y-2 text-white/65">
+      <span class="block">
+       البحوث
+      </span>
+      <span class="block">
+       مشاريع التخرج
+      </span>
+      <span class="block">
+       البرمجة
+      </span>
+      <span class="block">
+       التصميم
+      </span>
+      <span class="block">
+       الفيديو
+      </span>
+     </div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-4">
+      تواصل
+     </h3>
+     <div class="space-y-3 text-white/65 text-sm">
+      <a class="block hover:text-gold transition" href="https://wa.me/" target="_blank" rel="noopener">
+       واتساب
+      </a>
+      <a class="block hover:text-gold transition" href="https://t.me/+J3zwbmtFO3c5Yjc0" target="_blank" rel="noopener">
+       تيليجرام
+      </a>
+      <a class="block hover:text-gold transition" href="https://x.com/l05ur" target="_blank" rel="noopener">
+       X
+      </a>
+      <a class="block hover:text-gold transition" href="https://www.tiktok.com/@afaqacdam12" target="_blank" rel="noopener">
+       TikTok
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="border-t border-white/10 text-center py-6 text-sm text-white/50">
+    © 2026 جميع الحقوق محفوظة.
+   </div>
+  </footer>
+  <script src="js/main.js">
+  </script>
+ </body>
+</html>
